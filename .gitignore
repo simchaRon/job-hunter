@@ -1,0 +1,22 @@
+# Secrets and private data (NFR-1)
+.env
+data/
+logs/
+*.db
+config/profile.yaml
+config/form_answers.yaml
+token*.json
+credentials*.json
+client_secret*.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+dist/
+site/
+
+# Word lock files
+~$*.docx
