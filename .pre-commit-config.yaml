@@ -14,6 +14,12 @@ repos:
       - id: ruff-format
   - repo: local
     hooks:
+      - id: docs-check
+        name: docs check (code change needs a doc change)
+        entry: python scripts/check_docs.py --staged
+        language: system
+        pass_filenames: false
+        always_run: true
       - id: gitleaks
         name: gitleaks (secret scanner)
         entry: gitleaks git --pre-commit --redact --staged --verbose

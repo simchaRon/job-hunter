@@ -9,3 +9,4 @@ What was added in each phase. Newest first.
 - Secret scanner (gitleaks) in the commit checks (P0-04).
 - Folder layout (P0-05).
 - Docs index, setup and commit-check flows (P0-07).
+- Docs check: git hook and Claude Code Stop hook keep docs in step with code.
