@@ -25,6 +25,17 @@ Phase 0 (foundation) is in progress.
    uv run pre-commit install
    ```
 
+## Folders
+
+| Folder | What is in it |
+| --- | --- |
+| `src/job_hunter/` | The Python code. One subfolder per module (`sources`, `parsing`, `matching`, `cv`, `tracking`, `apply`, `agent`, `notify`, `llm`, `dashboard`). They are empty for now. |
+| `config/` | Settings and the master profile. Private files here are not in Git. |
+| `prompts/` | Prompt files for the AI, with version numbers. |
+| `templates/` | Word templates for the CV. |
+| `tests/` | Automatic tests. |
+| `docs/` | All documentation. Start at [docs/DOCS.md](docs/DOCS.md). |
+
 ## Run
 
 ```powershell

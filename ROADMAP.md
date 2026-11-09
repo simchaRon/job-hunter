@@ -19,7 +19,7 @@ Requirement IDs (FR-x.y, NFR-x) point to `docs/spec.md`. One task ≈ one Claude
 - [x] **P0-02** Project setup with uv: `pyproject.toml`, Python 3.12, ruff, pytest, pre-commit.
 - [x] **P0-03** `.gitignore` from the first commit: `.env`, `data/`, `logs/`, `config/profile.yaml`, `config/form_answers.yaml`, token files (NFR-1).
 - [x] **P0-04** Secret scanner (gitleaks) in pre-commit.
-- [ ] **P0-05** Folder layout per spec section 4 (`src/job_hunter/...`, `config/`, `prompts/`, `templates/`, `tests/`, `docs/`).
+- [x] **P0-05** Folder layout per spec section 4 (`src/job_hunter/...`, `config/`, `prompts/`, `templates/`, `tests/`, `docs/`).
 - [ ] **P0-06** `CLAUDE.md`: structure, run/test commands, code rules, "never touch profile.yaml or form_answers.yaml without asking".
 - [ ] **P0-07** Copy the spec to `docs/spec.md`, this file to `ROADMAP.md`, start `CHANGELOG.md` and `docs/decisions/0001-tech-stack.md`.
 - [ ] **P0-08** Data models (Pydantic/SQLModel) for all 9 tables, with `user_id` on every table (spec section 5).
