@@ -16,7 +16,7 @@ Requirement IDs (FR-x.y, NFR-x) point to `docs/spec.md`. One task ≈ one Claude
 **Done when:** `jobs --help` works and one test is green.
 
 - [x] **P0-01** Create the GitHub repo `job-hunter` (public), clone it locally on Windows.
-- [ ] **P0-02** Project setup with uv: `pyproject.toml`, Python 3.12, ruff, pytest, pre-commit.
+- [x] **P0-02** Project setup with uv: `pyproject.toml`, Python 3.12, ruff, pytest, pre-commit.
 - [x] **P0-03** `.gitignore` from the first commit: `.env`, `data/`, `logs/`, `config/profile.yaml`, `config/form_answers.yaml`, token files (NFR-1).
 - [ ] **P0-04** Secret scanner (gitleaks) in pre-commit.
 - [ ] **P0-05** Folder layout per spec section 4 (`src/job_hunter/...`, `config/`, `prompts/`, `templates/`, `tests/`, `docs/`).

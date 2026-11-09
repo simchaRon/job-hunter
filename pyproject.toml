@@ -1,0 +1,36 @@
+[project]
+name = "job-hunter"
+version = "0.1.0"
+description = "Smart Job Search System: collect jobs, score them, tailor CVs, track applications."
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.14.3",
+    "python-dotenv>=1.2.4",
+    "pyyaml>=6.0.3",
+    "sqlmodel>=0.0.48",
+    "typer>=0.29.0",
+]
+
+[project.scripts]
+jobs = "job_hunter.cli:app"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.7.0",
+    "pytest>=9.2.0",
+    "ruff>=0.17.4",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,1 @@
+"""Smart Job Search System."""
