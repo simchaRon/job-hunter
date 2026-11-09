@@ -19,3 +19,4 @@ Every doc in this project is listed here. Add a new doc? Add a link here too.
 - [Setup](flow-setup.md): install the tools and get the project running.
 - [Commit checks](flow-commit-checks.md): what runs before each commit.
 - [Data model](flow-data-model.md): the nine database tables.
+- [Init](flow-init.md): `jobs init` creates the database.
