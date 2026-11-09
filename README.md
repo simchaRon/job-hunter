@@ -7,7 +7,7 @@ Full description: [docs/spec.md](docs/spec.md). Task list: [ROADMAP.md](ROADMAP.
 
 ## Status
 
-Phase 0 (foundation) is in progress.
+Phase 0 (foundation) is done. Next: Phase 1 (manual MVP). See [ROADMAP.md](ROADMAP.md).
 
 ## Setup (Windows, PowerShell)
 

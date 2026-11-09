@@ -26,7 +26,7 @@ Requirement IDs (FR-x.y, NFR-x) point to `docs/spec.md`. One task ≈ one Claude
 - [x] **P0-09** `db.py`: create the SQLite database and tables on first run.
 - [x] **P0-10** Typer CLI skeleton: `jobs --help`, `jobs init`.
 - [x] **P0-11** First test: models create and read a job in an in-memory database.
-- [ ] **P0-12** `.env.example` and `config/profile.example.yaml` (fictional person).
+- [x] **P0-12** `.env.example` and `config/profile.example.yaml` (fictional person).
 
 ## Phase 1 – Manual MVP end to end
 

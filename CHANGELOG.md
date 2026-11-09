@@ -2,8 +2,9 @@
 
 What was added in each phase. Newest first.
 
-## Phase 0 – Foundation (in progress)
+## Phase 0 – Foundation (done)
 
+- `.env.example` and a fictional `config/profile.example.yaml` (P0-12).
 - `.gitignore` and `.gitattributes` (P0-03).
 - uv project with ruff, pytest and pre-commit (P0-02).
 - Secret scanner (gitleaks) in the commit checks (P0-04).

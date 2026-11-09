@@ -1,0 +1,44 @@
+# A FICTIONAL sample profile. Copy it to config/profile.yaml and replace it with real data.
+# The real profile.yaml is never committed.
+# Every text item has two fields (he / en) so a CV can be made in either language.
+# Every item has an id and tags, so the AI can pick and rephrase it without inventing anything.
+
+experience:
+  - id: sample-intel
+    org:
+      he: יחידת מודיעין לדוגמה
+      en: Sample Intelligence Unit
+    role:
+      he: מפתח תוכנה (שירות סדיר)
+      en: Software Developer (regular service)
+    start: 2018-01
+    end: 2020-01
+    tags: [python, development, intelligence, clearance]
+    bullets:
+      - id: sample-1
+        tags: [python, development]
+        he: פיתוח שתי אפליקציות פנימיות מאפס ב-Python
+        en: Built two internal applications from scratch in Python
+
+projects:
+  - id: sample-app
+    name:
+      he: אפליקציית דוגמה
+      en: Sample App
+    url: https://github.com/example/sample-app
+    tools: [Python, FastAPI, SQLite]
+    tags: [python, backend]
+
+education:
+  - id: sample-degree
+    institution:
+      he: אוניברסיטה לדוגמה
+      en: Sample University
+    degree:
+      he: תואר ראשון במדעי המחשב
+      en: B.Sc. in Computer Science
+    tags: [degree, computer-science]
+
+skills:
+  - name: Python
+    tags: [python]
