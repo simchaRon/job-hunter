@@ -43,4 +43,8 @@ uv run jobs --help
 uv run pytest
 ```
 
-(The `jobs` command comes later in Phase 0.)
+Create the local database (first time only):
+
+```powershell
+uv run jobs init
+```

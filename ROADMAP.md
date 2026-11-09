@@ -24,7 +24,7 @@ Requirement IDs (FR-x.y, NFR-x) point to `docs/spec.md`. One task ≈ one Claude
 - [x] **P0-07** Copy the spec to `docs/spec.md`, this file to `ROADMAP.md`, start `CHANGELOG.md` and `docs/decisions/0001-tech-stack.md`.
 - [x] **P0-08** Data models (Pydantic/SQLModel) for all 9 tables, with `user_id` on every table (spec section 5).
 - [x] **P0-09** `db.py`: create the SQLite database and tables on first run.
-- [ ] **P0-10** Typer CLI skeleton: `jobs --help`, `jobs init`.
+- [x] **P0-10** Typer CLI skeleton: `jobs --help`, `jobs init`.
 - [ ] **P0-11** First test: models create and read a job in an in-memory database.
 - [ ] **P0-12** `.env.example` and `config/profile.example.yaml` (fictional person).
 

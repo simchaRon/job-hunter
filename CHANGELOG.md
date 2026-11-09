@@ -9,6 +9,7 @@ What was added in each phase. Newest first.
 - Secret scanner (gitleaks) in the commit checks (P0-04).
 - Folder layout (P0-05).
 - Docs index, setup and commit-check flows (P0-07).
+- CLI: `jobs --help` and `jobs init` (P0-10).
 - `db.py`: SQLite engine, foreign keys on, table creation (P0-09).
 - Data models: nine tables with `user_id` (P0-08).
 - `CLAUDE.md` with project rules (P0-06).
