@@ -5,6 +5,7 @@ Every doc in this project is listed here. Add a new doc? Add a link here too.
 ## Project
 - [README](../README.md): what the project is, setup, run.
 - [Spec](spec.md): the full specification.
+- [CLAUDE.md](../CLAUDE.md): rules and commands for Claude Code.
 - [Roadmap](../ROADMAP.md): tasks per phase, ticked when done. Also see [roadmap.md](roadmap.md).
 - [Changelog](../CHANGELOG.md): what was added in each phase.
 
